@@ -35,6 +35,7 @@
                 "AllocatedStorage": { "Ref" : "DBAllocatedStorage" } ,
                 "AvailabilityZone": "us-east-1a",
                 "DBInstanceClass": { "Ref" : "DBInstanceClass" },
+		"DBName":{"Ref": "DBName"},
                 "DBInstanceIdentifier": { "Ref" : "DBInstanceIdentifier" },
                 "DeleteAutomatedBackups": true,
                 "Engine": "MySQL",
