@@ -22,10 +22,7 @@
 		"Description" : "The database instance type",
 		"Type": "String"
     },
-	"DBAvailabilityZone":{
-		"Description" : "The availability of instance ",
-		"Type": "String"
-    },
+
     "DBInstanceIdentifier": {
       "Description" : "Select Zone",
       "Type": "String"
